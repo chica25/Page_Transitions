@@ -1,8 +1,64 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gills sans';
 }
 
-/* .main {
-  
-} */
+body {
+    background-color: rgb(105, 45, 165);
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    align-items: top;
+    padding: 40px 40px;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    width: 200px;
+    margin-top: 1em;
+    transition: 0.4s all ease;
+}
+
+.content a:hover {
+    color: rgb(1, 1, 1);
+    background-color: white;
+}
+
+.cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+}
+.cover1 {
+    background-color:skyblue;
+    animation: slide 0.3s ease-in-out forwards;
+}
+.cover2{
+    background-color: tomato;
+    animation: slide 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+}
+@keyframes slide {
+    from{
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
