@@ -27,13 +27,13 @@ body {
     text-decoration: none;
     font-family: 'gill sans';
     font-weight: bold;
-  font: size; 20px;
+    /* font-size; 20px; */
     color: rgba(225, 93, 68);
     border: 1px lightgreen;
-  border-radius: 15px;
+    border-radius: 15px;
     padding: 10px 15px;
     width: 150px;
-    margin-center: 1em;
+    margin: 1em;
     transition: 0.4s all ease;
 }
 
@@ -75,8 +75,8 @@ body {
   font-size: 40px;
   color: rgba(195, 68, 122);
   justify-content: center;
-    align-items: center;
-    margin-top: 70px;
+  align-items: center;
+  margin-top: 70px;
   
 }
 
